@@ -1,0 +1,197 @@
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background: linear-gradient(to right,#d4dacd,#afbcad,#7d8d89,#566667,#4f5f62);
+}
+main div {
+    display: inline-flex;
+}
+header{
+    display: inline-flex;
+    margin: 20px 0 0 0;
+}
+header h1{    
+    display: inline-block;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 1.25em;
+    width: 5%;
+    left: 150px;
+    top: 95px;
+    color: #2f414a;
+    margin: 0 0 0 60px;
+}
+header img{
+    display: inline-block;
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 50px;
+    top: 50px;
+    margin: auto;
+}
+
+.bloque-izquierda{
+    width: 600px;
+    height: 480px;
+    border-radius: 25px;
+    margin: 200px 0 0 300px;
+    background-color: #d4dacd;
+}
+
+.input-texto{
+    position: absolute;
+    width: 500px;
+    margin: 50px 0 0 50px;
+    font-size: 18px;
+    color: #737373;
+    border-radius: 5px;
+    border-style: none;
+    resize: none;
+    outline: none;
+    background: #F6F5EF;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.bloque-izquierda p{
+    display: inline-block;
+    position: absolute;
+    font-weight: 500;
+    margin: 400px 0 0 50px;
+    font-size: 16px;
+    padding:10px;
+}
+.bloque-izquierda button{
+    position: absolute;
+    margin-top: 430px;
+}
+
+.encriptar-b {    
+    width: 200px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    background: #7d8d89;
+    color:#4f5f62;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.encriptar-b:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.desencriptar-b {    
+    width: 200px;
+    padding: 10px;    
+    border-style: none;
+    border-radius: 5px;
+    background: #4f5f62;
+    color:#d4dacd;
+    cursor: pointer;
+    margin-left: 300px;
+}
+.desencriptar-b:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.bloque-derecha{
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    margin: 0 0 0 75px;
+}
+.contenedor-texto {
+    display: inline-block;
+    position: absolute;
+    width: 600px;
+    margin: 55px 0 0 20px;
+}
+.salida-texto{
+    display: none;
+    position: relative;
+    height: 350px;
+    width: 450px;
+    margin: 0px 0px 0px 0px;
+    background: none;    
+    border-style: none;
+    resize: none;
+    outline: none;
+    text-align: start;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+}
+
+.copiar-b {
+    position: absolute;
+    margin: 420px 0 0 150px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #4f5f62;
+    border-style: none;
+    color: #d4dacd;
+    cursor: pointer;
+}
+.b-copiar:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.opacidad-imagen {
+    position: absolute;
+    width: 500px;
+    height: 480px;
+    border-radius: 36px;
+    background: #d4dacd;
+    opacity: 0.35;
+}
+.logo-b{
+    display: inline-block;
+    width: 500px;
+    height: 480px;
+    border-radius: 25px;
+}
+
+footer{
+    display: inline-block;
+    align-items: center;
+    font-size: 15px;
+    text-align:center;
+    color:#d4dacd;
+    font-weight: 400;
+    padding: 30px;
+    width: 100%;
+}
+ 
+.logo_github{
+    width: 20px;
+    height: auto;
+    padding: 0 10px
+}
+
+.logo_linkedIn{
+    width: 20px;
+    height: auto;
+    padding-right:  10px;
+}
+@media screen and (max-width:720px){
+
+    header a{
+        padding: 0 90%;
+    }
+    .bloque-izquierda {
+        margin: 40px 35px;        
+    }
+    .bloque-derecha {
+        margin: 0 90px;
+    }    
+    footer{
+        padding: 30px 0 30px 160px;
+           
+    }
+    
+    footer p{
+        display: inline-flex;
+        text-align:center;
+    }
+    }

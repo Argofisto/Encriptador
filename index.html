@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagenes/BN.png">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Texto</h1>
+        <img src="imagenes/BN.png" alt="Nessie Logo Black" id="logo-a">
+    </header>
+    <main>
+        <div class="bloque-izquierda">
+            <textarea cols="80" rows="15" id="input-texto" class="input-texto" placeholder="Ingresa tu texto aquí"></textarea>
+            <p>*Solo ingresar texto en minúscula y sin tildes.</p>
+            <div class="botones">
+                <button class="encriptar-b" onclick="encriptar_o_desencriptar(true)">Encriptar</button>               
+                <button class="desencriptar-b" onclick="encriptar_o_desencriptar(false)">Desencriptar</button>
+            </div>
+        </div>
+        <div class="bloque-derecha">
+            <div class="opacidad-imagen"></div>
+            <div class="contenedor-texto">
+              <textarea id="salida-texto" class="salida-texto" cols="30" rows="18"></textarea>
+              <p id="texto-bloque-der" class="texto-bloque-der">No se encontro ningún mensaje</p>
+            </div>
+            <button class="copiar-b" onclick="copiar()">Copiar</button>
+            <img id="logo-b" class="logo-b" src="imagenes/GN.png" alt="Nessie Logo Gray">
+          </div>
+    </main>
+    <footer>
+        <p>Desarrollado por Gerardo Ampuero</p>         
+        <a href="https://github.com/Argofisto" target="_blank"><img class="logo_github" src="imagenes/githubLogo.png" alt="logo github"></a>
+        <a href="https://www.linkedin.com/in/gerardo-sebastián-ampuero-ampuero/" target="_blank"><img class="logo_linkedIn" src="imagenes/linkedinLogo.png" alt="logo linkedIn"></a>
+        <p>Reto: Encriptador por Alura.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
