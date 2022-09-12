@@ -17,8 +17,8 @@
     </header>
     <main>
         <div class="bloque-izquierda">
-            <textarea cols="80" rows="15" id="input-texto" class="input-texto" placeholder="Ingresa tu texto aquí"></textarea>
-            <p>*Solo ingresar texto en minúscula y sin tildes.</p>
+            <textarea cols="80" rows="15" id="input-texto" class="input-texto" placeholder="Ingresa tu texto aquí" style="text-transform:lowercase;" pattern="[a-z]"></textarea>
+            <p>*Solo ingresar texto sin tildes.</p>
             <div class="botones">
                 <button class="encriptar-b" onclick="encriptar_o_desencriptar(true)">Encriptar</button>               
                 <button class="desencriptar-b" onclick="encriptar_o_desencriptar(false)">Desencriptar</button>
@@ -35,10 +35,9 @@
           </div>
     </main>
     <footer>
-        <p>Desarrollado por Gerardo Ampuero</p>         
+        <p>Creado por Gerardo Ampuero</p>         
         <a href="https://github.com/Argofisto" target="_blank"><img class="logo_github" src="imagenes/githubLogo.png" alt="logo github"></a>
         <a href="https://www.linkedin.com/in/gerardo-sebastián-ampuero-ampuero/" target="_blank"><img class="logo_linkedIn" src="imagenes/linkedinLogo.png" alt="logo linkedIn"></a>
-        <p>Reto: Encriptador por Alura.</p>
     </footer>
     <script src="script.js"></script>
 </body>
